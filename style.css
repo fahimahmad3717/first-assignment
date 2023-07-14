@@ -1,22 +1,27 @@
 .benner {
     background: #e554731a;
     display: flex;
-    padding: 50px 100px 0px 100px;
+    padding: 50px 30px 0px 100px;
+}
+
+.benner-cont {
     align-items: center;
+    padding-bottom: 50px;
 }
 
-.hbenner-titel {
+.benner-title {
     color: #272727;
-    
     font-size: 80px;
-    font-weight: 00px;
+    font-weight: 800;
+    margin-bottom: 0px;
 }
 
-.hbenner-text {
+.benner-text {
     color: #27272799;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    margin-top: 0px;
 }
 
 .button {
@@ -29,7 +34,50 @@
     color: #fff;
     border: 0px;
 }
-.profile-pic{
-    width: 500px;
 
+.profile-pic {
+    width: 535px;
+    margin: 100px 0px 0px 100px;
+}
+
+/* main section header */
+
+.section {
+    text-align: center;
+}
+
+.section-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+.section-text {
+    color: #27272799;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 0px;
+}
+
+.img-main {
+    color: #fff;    
+    display: flex;
+    justify-content: space-around;
+}
+
+.img1 {
+    border-radius: 300px 300px 0px 0px;
+    background: #a7216226;
+}
+
+.img2 {
+    border-radius: 300px 300px 0px 0px;
+    background: #0597a026;
+}
+
+.img3 {
+    border-radius: 300px 300px 0px 0px;
+    background: #477d1126;
 }
