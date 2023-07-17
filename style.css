@@ -92,9 +92,6 @@
     background: #477d1126;
 }
 
-.img-i {}
-
-
 .img-title {
     color: #000;
 }
@@ -109,7 +106,7 @@
 }
 
 .benner2 {
-    margin: 200px 0px;
+    margin: 10px 0px;
     background: #e554731a;
     display: flex;
     justify-content: space-around;
@@ -147,7 +144,11 @@
     border: 0px;
 }
 
-.gallery {}
+.gallery {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 150px;
+}
 
 
 .gallery-title {
@@ -197,6 +198,35 @@ input {
 
     font-size: 20px;
     font-weight: 700;
-    color: #fff;
+    color: #ffffff;
     border: 0px;
+}
+
+#footer {
+    background-color: #000;
+    text-align: center;
+    padding: 150px;
+
+}
+
+.footer-title {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.footer-text1 {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 0px;
+}
+
+.footer-text {
+    color: #ffffff99;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 0px;
 }
