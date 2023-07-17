@@ -62,22 +62,48 @@
 }
 
 .img-main {
-    color: #fff;    
+    color: #ffffff;
     display: flex;
     justify-content: space-around;
+    margin: 0px 50px;
 }
 
-.img1 {
-    border-radius: 300px 300px 0px 0px;
+.img-head {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.img-main1 {
+    width: 350px;
+    border-radius: 200px 200px 0px 0px;
     background: #a7216226;
 }
 
-.img2 {
-    border-radius: 300px 300px 0px 0px;
+.img-main2 {
+    width: 350px;
+    border-radius: 200px 200px 0px 0px;
     background: #0597a026;
 }
 
-.img3 {
-    border-radius: 300px 300px 0px 0px;
+.img-main3 {
+    width: 350px;
+    border-radius: 200px 200px 0px 0px;
     background: #477d1126;
+}
+.img-i{
+
+}
+
+
+.img-title {
+    color: #000;
+}
+
+.shed-section {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 8px;
+    background: #2727270d;
+    margin: 0px 150px;
 }
